@@ -2,17 +2,19 @@
 
 ## 选曲来源偏好与入口
 
-2026-09-23用户要求“不参考apple的，可以选抖音热门的”。本技能因此将抖音热门与同类作品近期用曲作为优先发现方向，排除Apple Music/iTunes作为选曲或证据来源。该偏好不等于某首歌已被核实热门；逐曲按[抖音检索](bgm-douyin-discovery.md)记录证据。
+2026-09-23最新偏好：BGM尽量从Incompetech选择。这覆盖旧的“抖音热门优先”；Apple Music/iTunes仍排除。默认站内现成优先、原创按需补缺，已确认的项目路径仍沿用。执行方法见[Incompetech检索](bgm-incompetech-discovery.md)；用户提供的某首歌只作入口或参考，不自动指定为全剧配乐。
 
-以下只作平台入口，**不能代替具体曲目页或当期榜单证据**。本次网页工具的读取情况如下，后续执行时重新确认：
+以下为本次维护核实到的官方入口，逐曲选用时仍要读取当前页面：
 
-| 入口 | 本次可核实范围与限制 |
+| 来源 | 核实范围与使用边界 |
 |---|---|
-| [抖音音乐发现页](https://www.douyin.com/discover/music) | 搜索发现该入口，直接读取未成功；未取得可引用的当前榜单 |
-| [抖音创作者中心](https://creator.douyin.com/creator-micro/billboard/5) | 返回创作者中心页面标题，无可读取榜单正文；路径当前功能、登录后内容及名次未验证 |
-| [汽水音乐合作平台](https://music.douyin.com/) | 返回平台页面标题，无可读取正文；不是已核实的公开热歌榜或具体音源 |
+| [Incompetech曲库](https://incompetech.com/music/royalty-free/music.html) | 可见标题/乐器/描述搜索及Genre、Feel筛选；筛选标签不是已试听证据 |
+| [用户提供的曲目入口](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100208) | 静态读取为加载中外壳，不能据此编造曲名、音频和段落秒点 |
+| [官方ISRC索引](https://incompetech.com/music/royalty-free/isrc_to_name.php) | 可读取录音编号与曲名映射，可辅助动态页身份核对 |
+| [Music FAQ](https://incompetech.com/music/royalty-free/faq.html) | 说明署名、曲名替换及ISRC用途；曲目与当前许可仍需逐项核实 |
+| [官方许可页](https://incompetech.com/music/royalty-free/licenses/) | 提供需署名的免费Creative Commons路径及Standard License路径；记录实际采用许可，不把免费写成无版权或已购买 |
 
-抖音的曲目页、实际使用视频、汽水音乐歌单或剪映库内结果应在每次项目中取得并单独记录。旧年份“周榜歌单”、用户自建“热歌榜”和其他平台榜单不等于抖音当期官方热度。来源不可读时如实交付候选及待核实项，不用其他平台冒充抖音热度。
+抖音、汽水音乐和剪映曲库作为按需补充入口，热度证据按[抖音检索](bgm-douyin-discovery.md)逐次核实，不维护永久热门歌单。不能用站外榜单或抓取日期冒充抖音当期热度。
 
 ## 音频技术
 
