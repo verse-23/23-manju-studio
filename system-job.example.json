@@ -1,0 +1,43 @@
+{
+  "project": "合成测试，不来自用户剧本",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "style": "glass",
+  "assets": [
+    {
+      "id": "SYS-DEMO",
+      "kind": "system",
+      "title": "支线任务已更新",
+      "label": "任务信息",
+      "lines": [
+        "前往北侧入口，寻找遗落的通行证。",
+        "任务进度：40%"
+      ],
+      "footer": "示例文案 · 仅用于验证排版与透明通道",
+      "progress": 0.4,
+      "enter": 0.4,
+      "hold": 3.2,
+      "exit": 0.3
+    },
+    {
+      "id": "SYS-DEMO-BLANK",
+      "kind": "system",
+      "title": "支线任务已更新",
+      "label": "任务信息",
+      "lines": [
+        "前往北侧入口，寻找遗落的通行证。",
+        "任务进度：40%"
+      ],
+      "footer": "示例文案 · 仅用于验证排版与透明通道",
+      "progress": 0.4,
+      "enter": 0.4,
+      "hold": 3.2,
+      "exit": 0.3,
+      "blank": true,
+      "variant_of": "SYS-DEMO"
+    }
+  ]
+}

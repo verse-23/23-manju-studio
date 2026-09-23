@@ -1,0 +1,42 @@
+{
+  "suite": "23-manju-studio",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "module": "assets",
+      "source_skill": "23-asset-factory",
+      "source_version": "4.0.0",
+      "entry": "asset-workflow.md"
+    },
+    {
+      "module": "system-ui",
+      "source_skill": "23-system-ui-motion",
+      "source_version": "1.0.0",
+      "entry": "system-workflow.md"
+    },
+    {
+      "module": "nameplates",
+      "source_skill": "23-nameplate-motion",
+      "source_version": "1.0.0",
+      "entry": "nameplate-workflow.md"
+    },
+    {
+      "module": "storyboard",
+      "source_skill": "23-seedance25-polish",
+      "source_version": "1.0.0",
+      "entry": "storyboard-workflow.md"
+    },
+    {
+      "module": "covers",
+      "source_skill": "23-cover-designer",
+      "source_version": "1.0.0",
+      "entry": "cover-workflow.md"
+    },
+    {
+      "module": "bgm",
+      "source_skill": "23-bgm-director",
+      "source_version": "1.1.0",
+      "entry": "bgm-workflow.md"
+    }
+  ]
+}

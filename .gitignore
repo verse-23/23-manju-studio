@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+runtime.local.json
+.env
+.env.*
+private/
+work/
+outputs/
+*.log
+assets/reference-covers/

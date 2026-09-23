@@ -1,0 +1,30 @@
+{
+  "project": "合成测试，不来自用户剧本",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "assets": [
+    {
+      "id": "CHAR-DEMO",
+      "kind": "character",
+      "style": "jade",
+      "title": "沈映舟",
+      "subtitle": "北境巡查使",
+      "enter": 0.4,
+      "hold": 3.2,
+      "exit": 0.3
+    },
+    {
+      "id": "SCENE-DEMO",
+      "kind": "scene",
+      "style": "editorial",
+      "title": "北城档案馆",
+      "subtitle": "夜 · 内景",
+      "enter": 0.4,
+      "hold": 3.2,
+      "exit": 0.3
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "project":{"title":"合成测试：门边的迟疑","model_target":"Seedance 2.5","ratio":"16:9","duration_s":8,"verified_max_duration_s":30,"dialogue_route":"post","scene":"夜间档案室，两位成年调查员在门旁交谈。","style":"3D国漫CG，保持已有角色外观与衣装，柔和细腻皮肤与清晰发束，织物有厚度和自然重力褶皱。"},
+  "references":[],
+  "locked_dialogue":[{"speaker":"调查员甲","text":"你刚才不是这样说的。","mode":"on_camera"}],
+  "shots":[
+    {"id":"S01","start":0,"end":3,"subject_and_position":"甲位于左前景，乙位于右中景，门在乙的右后方","action":"乙说完后看向门口，甲的目光仍停在乙脸上","camera":"平视双人中景，固定机位","focus":"两人面部清晰，门口略虚","lighting":"顶灯柔光塑形，门缝冷光勾勒乙的肩线","dialogue":[],"sound":"远处空调低声","continuity_out":"甲仍面对乙，乙的视线停在门口","reference_ids":[]},
+    {"id":"S02","start":3,"end":8,"subject_and_position":"甲保持左侧位置，乙留在右后方焦外","action":"甲呼吸停半拍，低声质问，然后等待回答","camera":"沿原轴线缓慢推近甲，质问结束前停住","focus":"甲的眼神与嘴部清晰，乙逐渐虚化","lighting":"保持原顶光方向与门缝冷光，肤色不跳变","dialogue":[{"speaker":"调查员甲","text":"你刚才不是这样说的。","mode":"on_camera","delivery":"压住情绪、低声质问、尾句停住"}],"sound":"衣料轻响，保留安静的室内空间感","continuity_in":"继承甲盯着乙、乙看门口的站位和视线","continuity_out":"甲目光未移开，乙肩膀短暂绷紧，准备接乙的反应镜头","reference_ids":[]}
+  ]
+}
