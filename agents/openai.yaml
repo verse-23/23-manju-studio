@@ -1,0 +1,4 @@
+interface:
+  display_name: "23-漫剧制作工作台"
+  short_description: "收到剧本先多选：资产、系统框、名牌、分镜优化、五版封面、BGM，统一参数后按需制作"
+  default_prompt: "使用 $23-manju-studio，读取我提供的剧本，先让我多选需要制作的模块，再按选择执行。"
