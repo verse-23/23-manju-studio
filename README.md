@@ -31,10 +31,4 @@ git clone https://github.com/verse-23/23-manju-studio.git <技能目录>/23-manj
 
 入口见[SKILL.md](SKILL.md)，运行依赖见[运行与来源](runtime-and-sources.md)。无需安装未使用模块的额外依赖。
 
-## 保留的制作偏好
 
-3D国漫CG、人物白底三视图＋五官半身近照、高颜且有辨识度、强化动漫剪影与发型设计、不写鞋底描述；无校服及性化/血腥呈现。资产/项目默认16:9与2K目标；封面3:4。BGM优先在Incompetech找具体曲目，按需补其他来源或原创方案，不参考Apple Music/iTunes，配音基线为响度统一−23 LUFS后+10 dB，音乐按实际版本试混或测量。
-
-Images 2.5 / Sunburst为历史目标模型偏好，不代表当前工具一定可调用或保证原生2K。透明视频须验证解码Alpha；剪映兼容性只有实际导入后才算验证。技能不能保证平台审核、点击率或一次生成成功。
-
-本仓库仅含通用工作流、工具、模板与来源通知，不包含业务剧本、第三方参考图片或机器配置。融合版本见[module-manifest.json](module-manifest.json)；第三方许可通知保留在相应模块内。
